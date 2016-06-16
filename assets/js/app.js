@@ -18,7 +18,7 @@ $(document).ready(function () {
 
 		userInput = $('#lyric-input').val().trim();
 		$('#lyric-input').val("");
-		var queryURL = "http://api.musixmatch.com/ws/1.1/track.search";
+		var queryURL = "https://api.musixmatch.com/ws/1.1/track.search";
 
 		console.log(queryURL);
 
