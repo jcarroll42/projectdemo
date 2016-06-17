@@ -159,7 +159,7 @@ $(document).ready(function () {
 		var counter = 0;
 
 		for (i = 0; i < pickedTrackList.length; i++){
-			var queryURL = "http://api.musixmatch.com/ws/1.1/track.lyrics.get";
+			var queryURL = "https://api.musixmatch.com/ws/1.1/track.lyrics.get";
 
 			$.ajax({
 	        url: queryURL,
