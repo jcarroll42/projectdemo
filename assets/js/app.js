@@ -113,7 +113,7 @@ $(document).ready(function () {
 		    		//If the genre doesn't exist: creates new button for that genre and property for that genre in genreObj with
 		    		//an array of arrays containing the current trackID and spotifyID
 		    		if (genreBool) {
-		    			debugger;
+		    			
 				    	var genre = $('<button class="genre btn btn-default btn-block btn-lg" genreSelect=' + genreName + '>' + genreNameFull + '</button>');
 				    	var gForDrop = $('<li><a class="genre" genreSelect=' + genreName + '>' + genreName + '</a>');
 				    	genreDrop.push(gForDrop);
