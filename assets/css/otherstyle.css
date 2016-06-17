@@ -1,14 +1,25 @@
 .whitespace{
-	height:100vh;
-	/*width: 100%;
-	margin-bottom:35%;*/
+	height: calc(100vh - 50px);
+	/*background-color: rgba(46,45,45, 0.8);*/
+	
+
+	
+	/*width: 100%;*/
+	/*margin-bottom:-50px;*/
 }
+
+
 
 html,body {
 	height: 100%;
 	width: 100%;
 	margin:0;
 	padding:0;
+	font-family: 'Roboto', sans-serif;
+	background: url("../images/cowtonguecolorized4.png") no-repeat center center fixed;
+	background-size: cover;
+	
+	/*background-color: #2E2D2D;*/
 
 }
 
@@ -16,8 +27,9 @@ html,body {
 	
 	height:100%;
 	width: 100%;
-	background: url("../images/cowtonguebw.png") no-repeat center center;
-	background-size: cover;
+
+	/*background: url("../images/cowtonguecolorized3.png") no-repeat center center fixed;
+	background-size: cover;*/
 
 	
 
@@ -25,6 +37,7 @@ html,body {
 .container-fluid{
 	height: 100%;
 	width: 100%;
+	padding: 0;
 }
 
 #wrapper{
@@ -38,11 +51,95 @@ html,body {
 
 h1{
 	font-size: 10em;
-	color: #ba181b;
+	color: #F720A8;
 }
 
 .lead{
-	font-size: 2em;
-	color: #ba181b;
+	font-size: 3em;
+	color: #F720A8;
 }
+
+.jumbotron{
+	/*background-color: #404040;*/
+	background-color: rgb(46,45,45);
+	color: #F720A8;
+	border: 2px;
+	border-color:#F720A8;
+}
+
+.navbar-inverse{
+	background-color: #222222;
+	color:#F720A8;
+	padding-left:20px;
+}
+
+.btn-default{
+	background-color: rgba(46,45,45, 0.8);
+	border-color: #F720A8;
+	color:#F720A8;
+}
+
+.btn-default:hover{
+	background-color: #F720A8;
+	color: #2E2D2D;
+	border-color: #F720A8;
+
+}
+
+.lyric-btn:active{
+	background-color: #CC1A8B;
+	color: #2E2D2D;
+	border-color: #F720A8;
+}
+
+.row{
+	margin: 0;
+}
+
+.buffer{
+	height:50px;
+	background-color: #F720A8;
+}
+
+.ui-accordion-header{
+	background-color: #F720A8;
+	color: #222222;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	border-radius: 5px;
+}
+
+.ui-accordion-header:hover{
+	background-color:#CC1A8B;
+}
+
+.ui-accordion-content{
+	background-color:#2E2D2D;
+	padding: 15px;
+	border-radius: 5px;
+	border-color: #F720A8;
+	border: 3px;
+	color: #F720A8;
+	font-size: 18px;
+}
+
+li {
+	padding-left: 8px;
+}
+
+iframe{
+	float: left;
+	margin-right: 15px;
+}
+
+.trackListBtn {
+	float:left;
+}
+
+p{
+	clear: both;
+}
+
+
 
